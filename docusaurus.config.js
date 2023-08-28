@@ -155,9 +155,9 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       algolia: {
-        indexName: "rayfield",
-        appId: "Y1DPKMTCPW",
-        apiKey: "7b017cc6ab9d1a413284733c14c2c42b",
+        indexName: "sirius",
+        appId: "1D0S0MU0VG",
+        apiKey: "218e98f8fe60c8ae1d3fc79ecfc3be97",
         contextualSearch: false,
       },
       footer: {
