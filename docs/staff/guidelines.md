@@ -26,6 +26,8 @@ _Not every rule is stated here, use common sense._
    - You openly admit that your mental health is heavily deteriorated.
    - Multiple inactivity requests about this topic are created.
 8. Punishments should not be given out just because want to. You should have a valid reason for giving out a punishment.
+9. Don't be annoying to other users and **staff members**. If you think they're getting annoyed, stop.
+10. Most importantly, abide by common sense. If you think something is wrong, it probably is.
 
 :::danger Important
 
