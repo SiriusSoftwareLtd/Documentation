@@ -16,12 +16,14 @@ Rayfield:Notify({
    Duration = 6.5,
    Image = 4483362458,
    Actions = { -- Notification Buttons
-      Ignore = {
+
+      Ignore = { -- Duplicate this table (or remove it) to add and remove buttons to the notification.
          Name = "Okay!",
          Callback = function()
-         print("The user tapped Okay!")
-      end
-   },
+            print("The user tapped Okay!")
+         end
+      },
+
 },
 })
 ```
