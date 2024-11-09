@@ -11,21 +11,6 @@ description: How to boot the Rayfield Library
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 ```
 
-### Secure Mode
-
-:::caution Warning
-If the game you're trying to run Rayfield Interface Suite on, is detecting or crashing when you use Rayfield Interface Suite, try using Secure Mode:
-
-- Place `getgenv().SecureMode = true` above the initial Rayfield loadstring
-
-:::
-Rayfield will now use Secure Mode and attempt to reduce detection
-:::note
-
-This may cause some elements of the UI to look lower quality or may increase loading times slightly
-
-:::
-
 ### Enabling Configuration Saving
 
 :::tip
