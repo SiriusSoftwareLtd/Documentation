@@ -1,6 +1,6 @@
 ---
 title: Themes
-sidebar_position: 3
+sidebar_position: 4
 image: /img/rayfield/rayfield.png
 description: Themes enabled in Rayfield and their Theme Identifiers
 ---
