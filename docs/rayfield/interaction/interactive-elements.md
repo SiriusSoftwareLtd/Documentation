@@ -113,8 +113,10 @@ Slider:Set(10) -- The new slider integer value
 ```lua
 local Input = Tab:CreateInput({
    Name = "Input Example",
+   CurrentValue = "",
    PlaceholderText = "Input Placeholder",
    RemoveTextAfterFocusLost = false,
+   Flag = "Input1",
    Callback = function(Text)
    -- The function that takes place when the input is changed
    -- The variable (Text) is a string for the value in the text box
