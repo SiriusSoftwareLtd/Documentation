@@ -127,7 +127,7 @@ local Input = Tab:CreateInput({
 ### Updating a an Adaptive Input (TextBox)
 
 ```lua
-Input:Set("New Text") -- The new slider integer value
+Input:Set("New Text") -- The new input text value
 ```
 
 ## Creating a Dropdown menu
