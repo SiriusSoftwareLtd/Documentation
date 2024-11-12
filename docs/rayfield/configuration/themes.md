@@ -24,4 +24,5 @@ Dark Blue - DarkBlue
 Green - Green
 Light - Light
 Ocean - Ocean
+Serenity - Serenity
 ```
