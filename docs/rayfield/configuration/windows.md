@@ -62,6 +62,18 @@ local Section = Tab:CreateSection("Section Example")
 Section:Set("Section Example")
 ```
 
+## Creating a Divider
+
+```lua
+local Divider = Tab:CreateDivider()
+```
+
+### Updating a Divider
+
+```lua
+Divider:Set(false) -- Whether the divider's visibility is to be set to true or false.
+```
+
 ## Destroying the Interface
 
 ```lua
