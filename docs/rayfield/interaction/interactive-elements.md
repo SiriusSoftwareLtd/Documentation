@@ -15,18 +15,28 @@ Rayfield:Notify({
    Content = "Notification Content",
    Duration = 6.5,
    Image = 4483362458,
-   Actions = { -- Notification Buttons
-
-      Ignore = { -- Duplicate this table (or remove it) to add and remove buttons to the notification.
-         Name = "Okay!",
-         Callback = function()
-            print("The user tapped Okay!")
-         end
-      },
-
-},
 })
 ```
+
+### Lucide Icon Support
+You can now also use Lucide Icons with Rayfield.
+To do so, replace the Image Id above `4483362458` with a string value of an icon name in Lucide Icons.
+
+```lua
+Rayfield:Notify({
+   Title = "Notification Title",
+   Content = "Notification Content",
+   Duration = 6.5,
+   Image = "rewind",
+})
+```
+
+This will set the icon to a rewind symbol from Lucide Icons.
+
+[All Lucide Icons](https://lucide.dev/icons/) 
+[Supported Lucide Icons](https://github.com/latte-soft/lucide-roblox/tree/master/icons/compiled/48px)
+
+Credit to [Lucide](https://lucide.dev/) and [Latte Softworks](https://github.com/latte-soft/)
 
 ## Creating a Button
 
