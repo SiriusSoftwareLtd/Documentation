@@ -51,10 +51,9 @@ local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 ```
 
 
+### Lucide Icon Support
 You can now also use Lucide Icons with Rayfield.
 To do so, replace the Image Id above `4483362458` with a string value of an icon name in Lucide Icons.
-
-Lucide Example Usage
 
 ```lua
 local Tab = Window:CreateTab("Tab Example", "rewind")
@@ -62,7 +61,8 @@ local Tab = Window:CreateTab("Tab Example", "rewind")
 
 This will set the Tab icon to a rewind symbol from Lucide Icons.
 
-[All Lucide Icons](https://lucide.dev/icons/) | [Supported Lucide Icons](https://github.com/latte-soft/lucide-roblox/tree/master/icons/compiled/48px)
+[All Lucide Icons](https://lucide.dev/icons/) 
+[Supported Lucide Icons](https://github.com/latte-soft/lucide-roblox/tree/master/icons/compiled/48px)
 
 Credit to [Lucide](https://lucide.dev/) and [Latte Softworks](https://github.com/latte-soft/)
 
