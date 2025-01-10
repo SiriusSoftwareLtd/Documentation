@@ -91,6 +91,20 @@ local Divider = Tab:CreateDivider()
 Divider:Set(false) -- Whether the divider's visibility is to be set to true or false.
 ```
 
+## Changing the Interface's Visibility
+
+### Setting the Visibility
+
+```lua
+Rayfield:SetVisibility(false)
+```
+
+### Getting the Visibility
+
+```lua
+Rayfield:IsVisible()
+```
+
 ## Destroying the Interface
 
 ```lua
