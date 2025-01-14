@@ -159,7 +159,13 @@ local Dropdown = Tab:CreateDropdown({
 ### Updating a Dropdown
 
 ```lua
-Dropdown:Set({"Option 2"}) -- The new list of options
+Dropdown:Set({"Option 2"}) -- The new selected options
+```
+
+### Resetting a dropdown
+
+```lua
+Dropdown:Refresh({"Option 1", "Option 2", "Option 3"}) -- The new list of options available.
 ```
 
 ## Check the value of an existing element
