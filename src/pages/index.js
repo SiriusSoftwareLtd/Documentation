@@ -32,6 +32,7 @@ export default function Home() {
         <meta property="og:title" content="Sirius Documentation" />
         <meta property="og:image:alt" content="Sirius Documentation" />
         <meta name="description" property="og:description" content="Documentation for all Sirius related projects" />
+        <script src="https://uptime.betterstack.com/widgets/announcement.js" data-id="206129" async="async" type="text/javascript"></script>
       </Head>
       <main className="flex h-[70vh] items-center">
         <div className="mx-auto py-6 sm:py-8 lg:py-12">
