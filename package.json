@@ -54,5 +54,12 @@
   },
   "engines": {
     "node": ">=16.14"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "core-js",
+      "core-js-pure",
+      "sharp"
+    ]
   }
 }
