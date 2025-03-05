@@ -159,7 +159,7 @@ const config = {
         contextualSearch: false,
       },
       footer: {
-        copyright: ``,
+        copyright: ` `,
       },
     }),
 };
