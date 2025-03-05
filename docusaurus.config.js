@@ -127,7 +127,7 @@ const config = {
       ],
       image: "img/Docs.png",
       navbar: {
-        title: "Documentation",
+        title: "Developer Docs",
         style: "dark",
         items: [
           {
