@@ -58,6 +58,16 @@ const config = {
         // ... other options
       },
     ],
+        [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "gen2",
+        path: "docs/gen2",
+        routeBasePath: "/gen2",
+        sidebarPath: require.resolve("./sidebars.js"),
+        // ... other options
+      },
+    ],
     [
       "@docusaurus/plugin-content-docs",
       {
