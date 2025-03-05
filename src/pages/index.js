@@ -39,7 +39,7 @@ export default function Home() {
           <div className="w-screen px-4 md:px-8">
             <div className="mb-10 md:mb-16">
               <h1 className="mb-1 text-center font-sfdisplay text-2xl font-bold dark:text-white lg:text-3xl">Developer Docs</h1>
-              <p className="mx-auto max-w-screen-md text-center font-sfdisplay dark:text-neutral-200 md:text-lg">Our official documentation for Sirius-developed libraries and product</p>
+              <p className="mx-auto max-w-screen-md text-center font-sfdisplay dark:text-neutral-200 md:text-lg">Our official documentation for Sirius-developed libraries and products</p>
             </div>
 
             <CardLayout>
