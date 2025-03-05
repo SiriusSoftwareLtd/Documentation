@@ -144,18 +144,6 @@ const config = {
             type: "search",
             position: "right",
           },
-          {
-            type: "dropdown",
-            label: "Community",
-            items: [
-              // Add your project under the last item
-              {
-                to: "/community/arrayfield",
-                label: "Arrayfield",
-              },
-            ],
-            position: "left",
-          },
         ],
       },
       prism: {
@@ -171,7 +159,7 @@ const config = {
         contextualSearch: false,
       },
       footer: {
-        copyright: `Powered by Sirius Documentation`,
+        copyright: ``,
       },
     }),
 };
