@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Docs",
+  title: "Developer Docs",
   tagline: "Documentation for all projects",
   favicon: "https://cdn.sirius.menu/assets/favicons/favicon.ico?v=4",
 
