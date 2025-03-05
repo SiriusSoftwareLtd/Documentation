@@ -8,7 +8,7 @@ description: Rayfield Gen2 is the most functionally and visually advanced interf
 # Rayfield Gen2
 [![image](/img/rayfield/gen2.png)](https://discord.sirius.menu)
 
-This is Rayfield Gen2.
+This is Rayfield Gen2..
 The most functionally advanced interface suite available.
 
 ## Getting Started
