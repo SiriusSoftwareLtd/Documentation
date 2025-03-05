@@ -159,7 +159,7 @@ const config = {
         contextualSearch: false,
       },
       footer: {
-        copyright: ` `,
+        copyright: `Copyright © 2025 Sirius. All rights reserved. `,
       },
     }),
 };
