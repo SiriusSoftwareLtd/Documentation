@@ -28,9 +28,9 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <meta name="description" content="Documentation for all Sirius related projects" />
-        <meta property="og:title" content="Sirius Documentation" />
-        <meta property="og:image:alt" content="Sirius Documentation" />
+        <meta name="description" content="Our official documentation for Sirius libraries and products" />
+        <meta property="og:title" content="Documentation" />
+        <meta property="og:image:alt" content="Documentation" />
         <meta name="description" property="og:description" content="Documentation for all Sirius related projects" />
         <script src="https://uptime.betterstack.com/widgets/announcement.js" data-id="206129" async="async" type="text/javascript"></script>
       </Head>
@@ -50,7 +50,7 @@ export default function Home() {
         </div>
       </main>
 
-      <section className="mb-[25vh] flex items-center">
+      {/* <section className="mb-[25vh] flex items-center">
         <div className="mx-auto py-6 sm:py-8 lg:py-12">
           <div className=" w-screen px-4 md:px-8">
             <div className="mb-10 md:mb-16">
@@ -68,7 +68,7 @@ export default function Home() {
             </CardLayout>
           </div>
         </div>
-      </section>
+      </section>*/}
     </Layout>
   );
 }
