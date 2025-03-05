@@ -48,6 +48,11 @@ html {
   color: #ffffff !important;
 }
 
+pre, code, .highlight {
+  color: inherit !important;
+  background-color: inherit !important;
+}
+
 .main-wrapper {
   justify-content: center;
 }
