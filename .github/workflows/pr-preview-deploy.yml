@@ -1,61 +1,23 @@
-name: PR Preview Deploy
+name: Build, Deploy to GitHub Pages and Deploy PR Preview
 
 on:
+  push:
+    branches: [ main ]
   pull_request:
-    branches:
-      - main
+    types: [ opened, reopened, synchronize, closed ]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency: ci-${{ github.ref }}
 
 jobs:
-  build:
-    name: Build Site
+  build-deploy-and-preview:
+    name: Build & Preview Docusaurus
     runs-on: ubuntu-latest
-    outputs:
-      artifact-path: ${{ steps.upload.outputs.artifact_id }}
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Build, Deploy & PR Preview
+        uses: chvmvd/build-deploy-and-preview-action@v1.2.0
         with:
-          node-version: '18'
-
-      - name: Cache npm modules
-        uses: actions/cache@v3
-        with:
-          # Cache both npm’s cache folder and node_modules
-          path: |
-            ~/.npm
-            node_modules
-          # Use package-lock.json to key the cache
-          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-npm-
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build static site
-        run: npm run build
-
-      - name: Upload Pages Artifact
-        id: upload
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
-
-  deploy:
-    name: Deploy Preview to GitHub Pages
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deploy
-        uses: actions/deploy-pages@v4
-        with:
-          artifact_id: ${{ needs.build.outputs.artifact-path }}
-          publish_branch: gh-pages
-          publish_dir: /pr-${{ github.event.number }}
+          type: docusaurus
