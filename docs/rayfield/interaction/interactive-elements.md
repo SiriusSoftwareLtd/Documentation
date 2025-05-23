@@ -158,17 +158,21 @@ local Dropdown = Tab:CreateDropdown({
 
 ### Updating a Dropdown
 
+You can update the dropdown's option list using `Dropdown:Refresh()`.
 ```lua
-Dropdown:Set({"Option 2"}) -- The new selected options
+Dropdown:Refresh({"New Option 1","New Option 2"}) -- The new list of options
 ```
 
-### Resetting a dropdown
-
+Set the dropdown's currently selecton option(s) using `Dropdown:Set()`. The option table can include multiple strings if you set MultipleOptions to true when creating the dropdown.
 ```lua
-Dropdown:Refresh({"Option 1", "Option 2", "Option 3"}) -- The new list of options available.
+Dropdown:Set({"Option 2"}) -- "Option 2" will now be selected
 ```
+
+:::note
+The dropdown's callback function is called when you use the Dropdown:Set() method.
+:::
 
 ## Check the value of an existing element
 
-To check the current value of an existing element, using the variable, you can do `ElementName.CurrentValue`, if it's a keybind or dropdown, you will need to use `KeybindName.CurrentKeybind` or `DropdownName.CurrentOption`
-You can also check it via the flags from `Rayfield.Flags`
+To check the value of an existing element, use `ElementName.CurrentValue`. If the element is a keybind or a dropdown, you need to use `KeybindName.CurrentKeybind` or `DropdownName.CurrentOption` respectively.
+You can also check it via the flags from `Rayfield.Flags`.
