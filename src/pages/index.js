@@ -28,17 +28,18 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <meta name="description" content="Documentation for all Sirius related projects" />
-        <meta property="og:title" content="Sirius Documentation" />
-        <meta property="og:image:alt" content="Sirius Documentation" />
-        <meta name="description" property="og:description" content="Documentation for all Sirius related projects" />
+        <meta name="description" content="Our official documentation for Sirius-developed libraries and products" />
+        <meta property="og:title" content="Developer Docs" />
+        <meta property="og:image:alt" content="Developer Docs" />
+        <meta name="description" property="og:description" content="Our official documentation for Sirius-developed libraries and products" />
+        <script src="https://uptime.betterstack.com/widgets/announcement.js" data-id="206129" async="async" type="text/javascript"></script>
       </Head>
       <main className="flex h-[70vh] items-center">
         <div className="mx-auto py-6 sm:py-8 lg:py-12">
           <div className="w-screen px-4 md:px-8">
             <div className="mb-10 md:mb-16">
-              <h1 className="mb-1 text-center font-sfdisplay text-2xl font-bold dark:text-white lg:text-3xl">Sirius Documentation</h1>
-              <p className="mx-auto max-w-screen-md text-center font-sfdisplay dark:text-neutral-200 md:text-lg">Documentation for all Sirius related projects</p>
+              <h1 className="mb-1 text-center font-sfdisplay text-2xl font-bold dark:text-white lg:text-3xl">Developer Docs</h1>
+              <p className="mx-auto max-w-screen-md text-center font-sfdisplay dark:text-neutral-200 md:text-lg">Our official documentation for Sirius-developed libraries and products</p>
             </div>
 
             <CardLayout>
@@ -49,7 +50,7 @@ export default function Home() {
         </div>
       </main>
 
-      <section className="mb-[25vh] flex items-center">
+      {/* <section className="mb-[25vh] flex items-center">
         <div className="mx-auto py-6 sm:py-8 lg:py-12">
           <div className=" w-screen px-4 md:px-8">
             <div className="mb-10 md:mb-16">
@@ -67,7 +68,7 @@ export default function Home() {
             </CardLayout>
           </div>
         </div>
-      </section>
+      </section>*/}
     </Layout>
   );
 }

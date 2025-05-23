@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Docs",
+  title: "Developer Docs",
   tagline: "Documentation for all projects",
   favicon: "https://cdn.sirius.menu/assets/favicons/favicon.ico?v=4",
 
@@ -58,6 +58,16 @@ const config = {
         // ... other options
       },
     ],
+        [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "gen2",
+        path: "docs/gen2",
+        routeBasePath: "/gen2",
+        sidebarPath: require.resolve("./sidebars.js"),
+        // ... other options
+      },
+    ],
     [
       "@docusaurus/plugin-content-docs",
       {
@@ -104,7 +114,7 @@ const config = {
     ({
       colorMode: {
         defaultMode: "dark",
-        disableSwitch: false,
+        disableSwitch: true,
         respectPrefersColorScheme: false,
       },
       metadata: [
@@ -117,7 +127,7 @@ const config = {
       ],
       image: "img/Docs.png",
       navbar: {
-        title: "Documentation",
+        title: "Developer Docs",
         style: "dark",
         items: [
           {
@@ -134,18 +144,6 @@ const config = {
             type: "search",
             position: "right",
           },
-          {
-            type: "dropdown",
-            label: "Community",
-            items: [
-              // Add your project under the last item
-              {
-                to: "/community/arrayfield",
-                label: "Arrayfield",
-              },
-            ],
-            position: "left",
-          },
         ],
       },
       prism: {
@@ -161,7 +159,7 @@ const config = {
         contextualSearch: false,
       },
       footer: {
-        copyright: `Powered by Sirius Documentation`,
+        copyright: `Copyright © 2025 Sirius. All rights reserved. `,
       },
     }),
 };

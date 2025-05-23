@@ -32,8 +32,8 @@ html {
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #aaabaa !important;
-  --ifm-color-primary-dark: #999a99 !important;
+  --ifm-color-primary: #ffffff !important;
+  --ifm-color-primary-dark: #ffffff !important;
   --ifm-color-primary-darker: #909290 !important;
   --ifm-color-primary-darkest: #777877 !important;
   --ifm-color-primary-light: #bbbcbb !important;
@@ -42,6 +42,10 @@ html {
   --ifm-background-color: #000000 !important;
   --ifm-code-font-size: 95% !important;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.2) !important;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, a, li {
+  color: #ffffff !important;
 }
 
 .main-wrapper {
