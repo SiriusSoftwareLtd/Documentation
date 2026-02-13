@@ -38,12 +38,18 @@
   "devDependencies": {
     "@biomejs/biome": "2.3.15",
     "@docusaurus/module-type-aliases": "^3.9.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "autoprefixer": "^10.4.24",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.19"
   },
   "browserslist": {
-    "production": [">0.5%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -54,7 +60,11 @@
     "node": ">=16.14"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["core-js", "core-js-pure", "sharp"]
+    "onlyBuiltDependencies": [
+      "core-js",
+      "core-js-pure",
+      "sharp"
+    ]
   },
   "packageManager": "pnpm@10.29.3+sha512.498e1fb4cca5aa06c1dcf2611e6fafc50972ffe7189998c409e90de74566444298ffe43e6cd2acdc775ba1aa7cc5e092a8b7054c811ba8c5770f84693d33d2dc"
 }

@@ -233,6 +233,7 @@ function SearchPageContent() {
         { threshold: 1 },
       ),
   )
+  const titleFormatter = useTitleFormatter()
   const getTitle = () =>
     searchQuery
       ? translate(
@@ -284,7 +285,7 @@ function SearchPageContent() {
   return (
     <Layout>
       <Head>
-        <title>{useTitleFormatter(getTitle())}</title>
+        <title>{titleFormatter(getTitle())}</title>
         {/*
          We should not index search pages
           See https://github.com/facebook/docusaurus/pull/3233
