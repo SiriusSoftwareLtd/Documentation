@@ -12,7 +12,7 @@ const config = {
   // GitHub pages deployment config.
   url: 'https://docs.sirius.menu',
   baseUrl: '/',
-  organizationName: 'SiriusDevelopmentGroup',
+  organizationName: 'SiriusSoftwareLtd',
   projectName: 'Documentation',
   trailingSlash: false,
 
