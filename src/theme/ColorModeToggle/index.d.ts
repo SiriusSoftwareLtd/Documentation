@@ -1,5 +1,10 @@
-import React from "react";
-import type { Props } from "@theme/ColorModeToggle";
-declare function ColorModeToggle({ className, buttonClassName, value, onChange }: Props): JSX.Element;
-declare const _default: React.MemoExoticComponent<typeof ColorModeToggle>;
-export default _default;
+import React from 'react'
+import type { Props } from '@theme/ColorModeToggle'
+declare function ColorModeToggle({
+  className,
+  buttonClassName,
+  value,
+  onChange,
+}: Props): JSX.Element
+declare const _default: React.MemoExoticComponent<typeof ColorModeToggle>
+export default _default

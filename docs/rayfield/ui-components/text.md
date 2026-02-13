@@ -21,7 +21,7 @@ To do so, replace the Image Id above `4483362458` with a string value of an icon
 local Label = Tab:CreateLabel("Label Example", "rewind")
 ```
 
-This will set the icon to a rewind symbol from Lucide Icons.
+This will set the icon to the Lucide Icons rewind symbol.
 
 [All Lucide Icons](https://lucide.dev/icons/) 
 [Supported Lucide Icons](https://github.com/latte-soft/lucide-roblox/tree/master/icons/compiled/48px)

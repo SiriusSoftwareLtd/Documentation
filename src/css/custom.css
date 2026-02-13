@@ -1,3 +1,5 @@
+/** biome-ignore-all lint/suspicious/noUnknownAtRules: This is using Tailwind V3 */
+/** biome-ignore-all lint/complexity/noImportantStyles: This is using Tailwind V3 */
 @import url("https://cdn.sirius.menu/assets/styles/SF-Pro-Stylesheet.css");
 
 /* Tailwind */

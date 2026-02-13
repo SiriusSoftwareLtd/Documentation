@@ -31,7 +31,7 @@ Rayfield:Notify({
 })
 ```
 
-This will set the icon to a rewind symbol from Lucide Icons.
+This will set the icon to the Lucide Icons rewind symbol.
 
 [All Lucide Icons](https://lucide.dev/icons/) 
 [Supported Lucide Icons](https://github.com/latte-soft/lucide-roblox/tree/master/icons/compiled/48px)
@@ -61,7 +61,7 @@ Button:Set("Button Example")
 local Toggle = Tab:CreateToggle({
    Name = "Toggle Example",
    CurrentValue = false,
-   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file; make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
    -- The function that takes place when the toggle is pressed
    -- The variable (Value) is a boolean on whether the toggle is true or false
@@ -81,7 +81,7 @@ Toggle:Set(false)
 local ColorPicker = Tab:CreateColorPicker({
     Name = "Color Picker",
     Color = Color3.fromRGB(255,255,255),
-    Flag = "ColorPicker1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    Flag = "ColorPicker1", -- A flag is the identifier for the configuration file; make sure every element has a different flag if you're using configuration saving to ensure no overlaps
     Callback = function(Value)
         -- The function that takes place every time the color picker is moved/changed
         -- The variable (Value) is a Color3fromRGB value based on which color is selected
@@ -104,10 +104,10 @@ local Slider = Tab:CreateSlider({
    Increment = 10,
    Suffix = "Bananas",
    CurrentValue = 10,
-   Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Flag = "Slider1", -- A flag is the identifier for the configuration file; make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
    -- The function that takes place when the slider changes
-   -- The variable (Value) is a number which correlates to the value the slider is currently at
+   -- The variable (Value) is a number that correlates to the value the slider is currently at
    end,
 })
 ```
@@ -134,7 +134,7 @@ local Input = Tab:CreateInput({
 })
 ```
 
-### Updating a an Adaptive Input (TextBox)
+### Updating an Adaptive Input (TextBox)
 
 ```lua
 Input:Set("New Text") -- The new input text value
@@ -145,10 +145,10 @@ Input:Set("New Text") -- The new input text value
 ```lua
 local Dropdown = Tab:CreateDropdown({
    Name = "Dropdown Example",
-   Options = {"Option 1","Option 2"},
+   Options = {"Option 1", "Option 2"},
    CurrentOption = {"Option 1"},
    MultipleOptions = false,
-   Flag = "Dropdown1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Flag = "Dropdown1", -- A flag is the identifier for the configuration file; make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Options)
    -- The function that takes place when the selected option is changed
    -- The variable (Options) is a table of strings for the current selected options
@@ -163,7 +163,7 @@ You can update the dropdown's option list using `Dropdown:Refresh()`.
 Dropdown:Refresh({"New Option 1","New Option 2"}) -- The new list of options
 ```
 
-Set the dropdown's currently selecton option(s) using `Dropdown:Set()`. The option table can include multiple strings if you set MultipleOptions to true when creating the dropdown.
+Set the dropdown's currently selected option(s) using `Dropdown:Set()`. The option table can include multiple strings if you set MultipleOptions to true when creating the dropdown.
 ```lua
 Dropdown:Set({"Option 2"}) -- "Option 2" will now be selected
 ```
