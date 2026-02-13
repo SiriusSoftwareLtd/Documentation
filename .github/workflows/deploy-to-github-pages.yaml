@@ -22,6 +22,7 @@ concurrency:
 
 jobs:
   build:
+    name: Build Docusaurus
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -56,11 +57,17 @@ jobs:
           path: ./build
 
   deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    
+    permissions:
+      pages: write # To publish to GitHub Pages
+      id-token: write # To verify the deployment originates from an authorized workflow
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    
     runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
