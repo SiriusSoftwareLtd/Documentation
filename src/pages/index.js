@@ -1,8 +1,8 @@
-// biome-ignore lint/correctness/noUnusedImports: Required for Docusaurus to work properly
-import React from "react";
 import Head from '@docusaurus/Head'
 import Image from '@theme/IdealImage'
 import Layout from '@theme/Layout'
+// biome-ignore lint/correctness/noUnusedImports: Required for Docusaurus to work properly
+import React from 'react'
 
 // ;<head>
 //   <title>Sirius Documentation</title>

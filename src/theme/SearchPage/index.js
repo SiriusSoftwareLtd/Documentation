@@ -18,7 +18,7 @@ import {
 } from '@docusaurus/theme-search-algolia/client'
 // import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
-import algoliaSearch from 'algoliasearch/lite'
+import { liteClient } from 'algoliasearch/lite'
 import algoliaSearchHelper from 'algoliasearch-helper'
 import clsx from 'clsx'
 // biome-ignore lint/correctness/noUnusedImports: Required for Docusaurus to work properly
@@ -164,7 +164,7 @@ function SearchPageContent() {
     },
     initialSearchResultState,
   )
-  const algoliaClient = algoliaSearch(appId, apiKey)
+  const algoliaClient = liteClient(appId, apiKey)
   const algoliaHelper = algoliaSearchHelper(algoliaClient, indexName, {
     hitsPerPage: 15,
     advancedSyntax: true,

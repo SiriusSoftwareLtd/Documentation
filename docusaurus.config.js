@@ -1,8 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/vsLight')
-const darkCodeTheme = require('prism-react-renderer/themes/vsDark')
+import { themes } from 'prism-react-renderer'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -18,8 +17,11 @@ const config = {
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -149,8 +151,8 @@ const config = {
       prism: {
         additionalLanguages: ['lua'],
         defaultLanguage: 'lua',
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: themes.vsLight,
+        darkTheme: themes.vsDark,
       },
       algolia: {
         indexName: 'sirius',
@@ -164,4 +166,4 @@ const config = {
     }),
 }
 
-module.exports = config
+export default config

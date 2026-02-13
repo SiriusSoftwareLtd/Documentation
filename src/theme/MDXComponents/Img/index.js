@@ -1,6 +1,6 @@
 import Image from '@theme/IdealImage'
 // biome-ignore lint/correctness/noUnusedImports: Required for Docusaurus to work properly
-import React from "react";
+import React from 'react'
 
 export default function MDXImg(props) {
   console.log(props)

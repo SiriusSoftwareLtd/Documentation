@@ -1,6 +1,5 @@
-// biome-ignore lint/correctness/noUnusedImports: Required for Docusaurus to work properly
-
 import Content from '@theme-original/AnnouncementBar/Content'
+// biome-ignore lint/correctness/noUnusedImports: Required for Docusaurus to work properly
 import React from 'react'
 
 export default function ContentWrapper(props) {
