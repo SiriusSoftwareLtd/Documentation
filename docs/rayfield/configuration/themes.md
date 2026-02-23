@@ -12,48 +12,18 @@ All themes are beautifully designed to both display Rayfield in its best form an
 To make use of Themes, either run `Window.ModifyTheme('ThemeIdentifier')`, or add an argument to the CreateWindow function named Theme and set the value (string) to whichever Theme Identifier you'd like to use.
 
 ## Themes Available
-```
-Theme Name - ThemeIdentifier
 
-Default - Default
-Amber Glow - AmberGlow
-Amethyst - Amethyst
-Bloom - Bloom
-Dark Blue - DarkBlue
-Green - Green
-Light - Light
-Ocean - Ocean
-Serenity - Serenity
-```
-<details>
-<summary>Theme Previews</summary>
-### Default
-![Default](/img/rayfield/themes/Default.png)
-
-### AmberGlow
-![Amber Glow](/img/rayfield/themes/AmberGlow.png)
-
-### Amethyst
-![Amethyst](/img/rayfield/themes/Amethyst.png)
-
-### Bloom
-![Bloom](/img/rayfield/themes/Bloom.png)
-
-### DarkBlue
-![Dark Blue](/img/rayfield/themes/DarkBlue.png)
-
-### Green
-![Green](/img/rayfield/themes/Green.png)
-
-### Light
-![Light](/img/rayfield/themes/Light.png)
-
-### Ocean
-![Ocean](/img/rayfield/themes/Ocean.png)
-
-### Serenity
-![Serenity](/img/rayfield/themes/Serenity.png)
-</details>
+| Theme Name | Theme Identifier | Preview |
+|---|---|---|
+| Default | `Default` | ![Default](/img/rayfield/themes/Default.png) |
+| Amber Glow | `AmberGlow` | ![Amber Glow](/img/rayfield/themes/AmberGlow.png) |
+| Amethyst | `Amethyst` | ![Amethyst](/img/rayfield/themes/Amethyst.png) |
+| Bloom | `Bloom` | ![Bloom](/img/rayfield/themes/Bloom.png) |
+| Dark Blue | `DarkBlue` | ![Dark Blue](/img/rayfield/themes/DarkBlue.png) |
+| Green | `Green` | ![Green](/img/rayfield/themes/Green.png) |
+| Light | `Light` | ![Light](/img/rayfield/themes/Light.png) |
+| Ocean | `Ocean` | ![Ocean](/img/rayfield/themes/Ocean.png) |
+| Serenity | `Serenity` | ![Serenity](/img/rayfield/themes/Serenity.png) |
 
 
 ## Custom Themes
