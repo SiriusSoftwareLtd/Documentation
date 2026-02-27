@@ -13,19 +13,17 @@ To make use of Themes, either run `Window.ModifyTheme('ThemeIdentifier')`, or ad
 
 ## Themes Available
 
-```
-Theme Name - ThemeIdentifier
-
-Default - Default
-Amber Glow - AmberGlow
-Amethyst - Amethyst
-Bloom - Bloom
-Dark Blue - DarkBlue
-Green - Green
-Light - Light
-Ocean - Ocean
-Serenity - Serenity
-```
+| Theme Name | Theme Identifier | Preview |
+|---|---|---|
+| Default | `Default` | ![Default](/img/rayfield/themes/Default.png) |
+| Amber Glow | `AmberGlow` | ![Amber Glow](/img/rayfield/themes/AmberGlow.png) |
+| Amethyst | `Amethyst` | ![Amethyst](/img/rayfield/themes/Amethyst.png) |
+| Bloom | `Bloom` | ![Bloom](/img/rayfield/themes/Bloom.png) |
+| Dark Blue | `DarkBlue` | ![Dark Blue](/img/rayfield/themes/DarkBlue.png) |
+| Green | `Green` | ![Green](/img/rayfield/themes/Green.png) |
+| Light | `Light` | ![Light](/img/rayfield/themes/Light.png) |
+| Ocean | `Ocean` | ![Ocean](/img/rayfield/themes/Ocean.png) |
+| Serenity | `Serenity` | ![Serenity](/img/rayfield/themes/Serenity.png) |
 
 
 ## Custom Themes
